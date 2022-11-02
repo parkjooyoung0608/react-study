@@ -8,6 +8,9 @@ const Main = () => {
       <button onClick={() => navigate("/suspense")}>
         suspense 예제 보러가기
       </button>
+      <button onClick={() => navigate("/i18next")}>
+        i18next 예제 보러가기
+      </button>
     </div>
   );
 };
