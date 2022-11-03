@@ -13,6 +13,8 @@ const I18next = () => {
   const { t, i18n } = useTranslation();
   const [count, setCounter] = useState(0);
 
+  console.log(Object.keys(lngs));
+
   return (
     <div>
       <div>

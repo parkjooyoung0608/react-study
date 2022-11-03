@@ -1,10 +1,9 @@
 .App {
+  height: 100vh;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +34,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  display: block;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #282c34;
+  color: white;
 }

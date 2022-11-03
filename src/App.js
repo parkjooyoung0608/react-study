@@ -4,6 +4,7 @@ import "./App.css";
 import Main from "./pages/Main";
 import Suspense from "./pages/Suspense";
 import I18next from "./pages/I18next";
+import WebStorageObject from "./pages/WebStorageObject";
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
           <Route path="/" element={<Main />}></Route>
           <Route path="/suspense" element={<Suspense />}></Route>
           <Route path="/i18next" element={<I18next />}></Route>
+          <Route
+            path="/web-storage-object"
+            element={<WebStorageObject />}
+          ></Route>
         </Routes>
       </BrowserRouter>
     </div>
