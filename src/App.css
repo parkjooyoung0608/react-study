@@ -20,6 +20,20 @@
   transform: translate(125px, 0px) !important;
 }
 
+.keyboardInput {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.keyboardContainer {
+  margin: 0 auto;
+  max-width: 850px;
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,8 +50,6 @@
 } */
 
 header {
-  /* min-height: 100vh; */
-  /* font-size: calc(10px + 2vmin); */
   display: flex;
   flex-direction: column;
   align-items: center;

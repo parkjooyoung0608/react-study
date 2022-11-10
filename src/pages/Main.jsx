@@ -20,6 +20,9 @@ const Main = () => {
         <button onClick={() => navigate("/date-picker")}>
           React-DatePicker 예제 보러가기
         </button>
+        <button onClick={() => navigate("/keyboard")}>
+          가상 키보드 예제 보러가기
+        </button>
       </div>
     </div>
   );

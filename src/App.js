@@ -5,6 +5,7 @@ import Suspense from "./pages/Suspense";
 import I18next from "./pages/I18next";
 import WebStorageObject from "./pages/WebStorageObject";
 import ReactDatePicker from "./pages/ReactDatePicker";
+import SampleKeyboard from "./pages/Keyboard";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           element={<WebStorageObject />}
         ></Route>
         <Route path="/date-picker" element={<ReactDatePicker />}></Route>
+        <Route path="/keyboard" element={<SampleKeyboard />}></Route>
       </Routes>
     </BrowserRouter>
   );
