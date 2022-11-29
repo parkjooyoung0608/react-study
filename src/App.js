@@ -6,6 +6,7 @@ import I18next from "./pages/I18next";
 import WebStorageObject from "./pages/WebStorageObject";
 import ReactDatePicker from "./pages/ReactDatePicker";
 import SampleKeyboard from "./pages/Keyboard";
+import Dnd from "./pages/Dnd";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         ></Route>
         <Route path="/date-picker" element={<ReactDatePicker />}></Route>
         <Route path="/keyboard" element={<SampleKeyboard />}></Route>
+        <Route path="/drag" element={<Dnd />}></Route>
       </Routes>
     </BrowserRouter>
   );
